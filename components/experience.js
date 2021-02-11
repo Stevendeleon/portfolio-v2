@@ -1,7 +1,7 @@
 import React from "react";
 
 const experience = () => {
-  const jobsInfo = [
+  const jobDetails = [
     {
       name: "Glitnir",
       tl: "Sept 2017 - Present",
@@ -47,7 +47,7 @@ const experience = () => {
     },
   ];
 
-  // const job = jobsInfo.map((job) => {
+  // const job = jobDetails.map((job) => {
   //   return (
   //     <div className="grid" key={job.id}>
   //       <div className="col-span-4">{job.title}</div>
@@ -71,8 +71,8 @@ const experience = () => {
   return (
     <>
       <h1 className="mt-8 mb-6 text-3xl font-bold bg-gray-">Experience</h1>
-      <div className="flex p-2 w-full text-gray-800 bg-white dark:bg-gray-600 dark:text-gray-200 rounded-lg shadow-xl">
-        <div className="grid grid-cols-6 grid-rows-4 gap-4 grid-flow-row"></div>
+      <div className="flex w-full p-2 text-gray-800 bg-white rounded-lg shadow-xl dark:bg-gray-600 dark:text-gray-200">
+        <div className="grid grid-flow-row grid-cols-6 grid-rows-4 gap-4"></div>
       </div>
     </>
   );

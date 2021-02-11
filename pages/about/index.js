@@ -1,19 +1,9 @@
 import React from "react";
 import Layout from "../../components/layout";
+import RecentTechnologies from "../../components/recentTechnologies";
 // import Experience from "../../components/experience";
 // import Goals from "../../components/goals";
 const about = () => {
-  const list = [
-    "Javascript",
-    "HTML/CSS",
-    "React.js",
-    "Node.js",
-    "Next.js",
-    "Mdx js",
-    "Typescript",
-    "Python",
-  ];
-
   return (
     <Layout>
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
@@ -28,29 +18,13 @@ const about = () => {
           scalable products that are user friendly and appealing.
         </p>
 
-        <p className="mb-2 text-red-700 dark:text-green-300  font-bold">
+        <p className="mb-2 font-bold text-red-700 dark:text-green-300">
           Recently Used Technologies
         </p>
-        <ul className="grid grid-cols-2 my-4 truncate">
-          {list.map((li, index) => {
-            return (
-              <li
-                className="transition-all ease-out duration-150 relative pr-4 pb-2 hover:text-blue-500 cursor-none"
-                key={index}
-                style={{
-                  fontFamily: "'Fira Code', monospace",
-                  fontSize: "0.88rem",
-                  fontWeight: "500",
-                }}
-              >
-                {li}
-              </li>
-            );
-          })}
-        </ul>
-        {/* <Goals /> */}
-        {/* <Experience /> */}
+        <RecentTechnologies />
       </div>
+      {/* <Goals /> */}
+      {/* <Experience /> */}
     </Layout>
   );
 };

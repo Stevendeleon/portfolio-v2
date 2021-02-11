@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.keys.js
+/.keys.js
 
 # testing
 /coverage
@@ -11,6 +13,9 @@
 # next.js
 /.next/
 /out/
+.next
+.next/
+/next
 
 # production
 /build

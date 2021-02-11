@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "./navbar";
+import Footer from "./footer";
 
 const layout = ({ children }) => {
   return (
@@ -15,6 +16,7 @@ const layout = ({ children }) => {
       <main className="flex flex-col justify-center px-8 mb-20">
         {children}
       </main>
+      <Footer />
     </div>
   );
 };

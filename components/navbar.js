@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import Link from "next/link";
+import NavBarLinks from "./navBarLinks";
 
 const navbar = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -19,44 +19,19 @@ const navbar = () => {
   return (
     <nav className="flex items-center justify-between w-full max-w-4xl p-8 mx-auto my-0 bg-transparent sticky-nav md:my-8 bg-opacity-60">
       <button
-        className="sm:text-sm md:text-xl bg-gray-100 dark:bg-gray-800 p-3 rounded w-auto"
+        className="w-auto p-3 bg-gray-100 rounded sm:text-sm md:text-xl dark:bg-gray-800"
         onClick={switchTheme}
       >
         <span className="sm:text-sm md:text-xl ">
           {theme === "light" ? (
-            <i className="fas fa-moon-stars" />
+            <i className="fas fa-moon-stars" aria-hidden="false" />
           ) : (
-            <i className="fas fa-sun" />
+            <i className="fas fa-sun" aria-hidden="false" />
           )}
         </span>
-        {/* <i class="fas fa-light-ceiling " /> */}
       </button>
-      <div className="sm:text-sm md:text-xl  font-semibold">
-        <Link href="/">
-          <span className="p-1  cursor-pointer sm:p-4 hover:text-blue-500 dark:hover:text-green-400">
-            Home
-          </span>
-        </Link>
-        <Link href="/about">
-          <span className="p-1  cursor-pointer sm:p-4 hover:text-blue-500 dark:hover:text-green-400">
-            About
-          </span>
-        </Link>
-        <Link href="/projects">
-          <span className="p-1  cursor-pointer sm:p-4 hover:text-blue-500 dark:hover:text-green-400">
-            Projects
-          </span>
-        </Link>
-        <Link href="/contact">
-          <span className="p-1  cursor-pointer sm:p-4 hover:text-blue-500 dark:hover:text-green-400">
-            Contact
-          </span>
-        </Link>
-      </div>
+      <NavBarLinks />
     </nav>
-    // <div>
-    //   <button onClick={switchTheme}>Change theme</button>
-    // </div>
   );
 };
 
