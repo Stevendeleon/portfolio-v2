@@ -1,6 +1,6 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import key from "../.keys";
+import key from "../keys";
 
 class MyDocument extends Document {
   render() {
