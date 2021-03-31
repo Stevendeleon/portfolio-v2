@@ -3,7 +3,7 @@ import Layout from "../../components/layout";
 import RecentTechnologies from "../../components/recentTechnologies";
 // import Experience from "../../components/experience";
 // import Goals from "../../components/goals";
-const about = () => {
+export default function About() {
   return (
     <Layout>
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
@@ -27,4 +27,4 @@ const about = () => {
       {/* <Experience /> */}
     </Layout>
   );
-};
+}
