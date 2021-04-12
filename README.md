@@ -1,6 +1,6 @@
 # stevendeleon.com
 
-Here is the latest version of my portfolio which has evolved from static HTML, to a Template, to now : `Next.js & React.js` 
+Here is the latest version of my portfolio which has evolved from static HTML, to using templates, to now : `Next.js & React.js` 
 
 ### Upcomming changes
 > Refactoring + Cleanup of Project Structure
