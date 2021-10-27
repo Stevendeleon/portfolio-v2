@@ -3,12 +3,12 @@ import React from "react";
 const recentTechnologies = () => {
   const list = [
     "Javascript",
-    "HTML/CSS",
-    "React.js",
-    "Node.js",
+    "SCSS",
+    "React",
+    "Node",
     "Next.js",
-    "Mdx.js",
-    "Typescript",
+    "GSAP",
+    "Svelte",
     "Python",
   ];
 

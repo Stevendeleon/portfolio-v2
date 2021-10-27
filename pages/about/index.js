@@ -10,8 +10,8 @@ export default function About() {
         <h1 className="mt-24 mb-6 text-4xl font-bold md:text-6xl ">About me</h1>
         <p className="mb-4 text-lg">
           Currently I work for{" "}
-          <span className="font-bold">Glitnir Ticketing</span>, but I am open to
-          new opportunities.
+          <span className="font-bold">NTT Data &amp; Glitnir Ticketing</span>,
+          and I am open to new opportunities.
         </p>
         <p className="mb-8 text-lg">
           I aim to combine my skills of programming and design to build quality
