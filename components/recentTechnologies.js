@@ -2,14 +2,14 @@ import React from "react";
 
 const recentTechnologies = () => {
   const list = [
-    "Javascript",
-    "SCSS",
-    "React",
-    "Node",
-    "Next.js",
+    "Capacitor.js",
+    "Vue.js",
+    "Flutter",
     "GSAP",
-    "Svelte",
     "Python",
+    "Redis",
+      "Docker",
+      "Machine Learning",
   ];
 
   const renderList = list.map((li, index) => {
