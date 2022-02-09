@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout";
 import ContactInformation from "../../components/contactInformation.js";
-const contact = () => {
+export default function Contact() {
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center max-w-2xl mx-auto mb-16 md:items-start">
@@ -10,6 +10,9 @@ const contact = () => {
         </h1>
         <div className="flex flex-row mt-8">
           <p className="text-md md:text-xl">
+            I currently am not available for hire.
+            <br/>
+            <br/>
             Whether you have questions or just want to say hi, feel free to
             shoot me an email my inbox is always open and I will do my best to
             get back to you as soon as I can!{" "}
@@ -20,5 +23,3 @@ const contact = () => {
     </Layout>
   );
 };
-
-export default contact;

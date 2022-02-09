@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/layout";
 import ProjectCard from "../../components/projectCard";
 
-const projects = () => {
+export default function projects() {
   return (
     <Layout>
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
@@ -18,6 +18,4 @@ const projects = () => {
       </div>
     </Layout>
   );
-};
-
-export default projects;
+}

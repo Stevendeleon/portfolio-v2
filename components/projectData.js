@@ -2,32 +2,28 @@ const proj = [
   {
     id: 0,
     title: "Collins Blog",
-    body:
-      "A Blog for a friend showcasing his Cyber Security write-ups. Here I dynamically render and route articles from a database",
+    body: "A Blog for a friend showcasing his Cyber Security write-ups. Here I dynamically render and route articles from a database",
     technologies: ["Javascript", "React.js", "Next.js"],
     link: "https://collinhacks.com/",
   },
   {
     id: 1,
     title: "Trello Clone",
-    body:
-      "A Simplistic recreate of Trello capturing their core UI-Concepts along with their Drag & Drop functionality",
+    body: "A Simplistic recreate of Trello capturing their core UI-Concepts along with their Drag & Drop functionality",
     technologies: ["Javascript", "React.js", "Unsplash API"],
     link: "https://stevendeleon.github.io/trello-clone/",
   },
   {
     id: 2,
     title: "Finddit",
-    body:
-      "Using Reddit's API to search for keywords related to a post through the data the API Provides",
+    body: "Using Reddit's API to search for keywords related to a post through the data the API Provides",
     technologies: ["Javascript", "React.js", "Next.js", "Reddit API"],
     link: "https://reddit-api-theta.vercel.app/",
   },
   {
     id: 3,
     title: "Discord Bot",
-    body:
-      "Magic 8-ball Bot for Discord Servers. Takes a question and outputs a response in the Jamaican Dialect 'Patois'",
+    body: "Magic 8-Ball and word of the day - Here I used python to scrape data and create a bot for servers to use",
     technologies: ["Python", "Discord API"],
     link: "https://github.com/Stevendeleon/Jamaican-magic-eightball",
   },
