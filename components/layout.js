@@ -2,15 +2,16 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import {MY_NAME} from "../constants";
 
-const layout = ({ children }) => {
+export default function layout({ children }){
   return (
     <div
       className="relative flex flex-col min-h-screen transition-all duration-300 ease-out"
       style={{ fontFamily: `"Roboto", sans-serif` }}
     >
       <Head>
-        <title>Steven DeLeon</title>
+        <title>{MY_NAME}</title>
       </Head>
       <Navbar />
       <main className="flex flex-col justify-center px-8 mb-20">
@@ -20,5 +21,3 @@ const layout = ({ children }) => {
     </div>
   );
 };
-
-export default layout;

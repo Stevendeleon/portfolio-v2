@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
     "autoprefixer": "^10.2.4",
@@ -15,5 +16,11 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "babel-jest": "^27.5.1",
+    "enzyme": "^3.11.0",
+    "jest": "^27.5.1"
   }
 }

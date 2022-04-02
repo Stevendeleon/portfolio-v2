@@ -19,6 +19,8 @@ key.js
 .next/
 /next
 
+.idea
+
 # production
 /build
 
