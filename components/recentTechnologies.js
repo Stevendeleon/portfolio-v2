@@ -1,15 +1,16 @@
 import React from "react";
+import { RECENT_TECHNOLOGIES } from "../constants";
 
 const recentTechnologies = () => {
   const list = [
-    "Capacitor.js",
-    "Vue.js",
-    "Flutter",
-    "GSAP",
-    "Python",
-    "Redis",
-      "Docker",
-      "Machine Learning",
+    RECENT_TECHNOLOGIES.capacitor,
+    RECENT_TECHNOLOGIES.vue,
+    RECENT_TECHNOLOGIES.flutter,
+    RECENT_TECHNOLOGIES.jest,
+    RECENT_TECHNOLOGIES.python,
+    RECENT_TECHNOLOGIES.redis,
+    RECENT_TECHNOLOGIES.openShift,
+    RECENT_TECHNOLOGIES.dataScience
   ];
 
   const renderList = list.map((li, index) => {
