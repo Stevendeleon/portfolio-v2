@@ -1,27 +1,14 @@
-# stevendeleon.com
+# [stevendeleon.com](https://stevendeleon.com)
 
-Here is the latest version of my portfolio which has evolved from static HTML, to using templates, to now : `Next.js & React.js` 
-
-### Upcomming changes
-> Refactoring + Cleanup of Project Structure
-> Add an Experience Section + Sticky Footer
-> Add a `projects/directory` for more projects.
-> Adjust `projects/index` to Showcase top projects + add view more
-
-### High level
-> The `pages/` directory includes all the routing
-> Next.js makes this super easy! 
-- `pages/index.js` = /
-- `pages/about/index.js` = /about
-- `pages/projects/index.js` = /projects
-- `pages/contact/index.js` = /contact
-
-### How to run locally
+## How to run locally
+### clone repo using https or ssh
 ```bash
-$ git clone https://github.com/stevendeleon/portfolio-v2.git
-$ cd portfolio-v2
-$ npm i
-$ npm run dev
+$ git clone https://github.com/stevendeleon/portfolio-v2.git # via https
+$ git clone git@github.com:Stevendeleon/portfolio-v2.git     # via ssh
+
+$ cd portfolio-v2 # open the repo in your editor
+$ npm i           # install dependencies
+$ npm run dev     # run the server
 ```
 
 ### Build
