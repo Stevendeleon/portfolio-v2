@@ -1,15 +1,17 @@
-import React from 'react'
-import { render } from '@testing-library/react'
-import Home from '../index'
-import { MY_NAME } from "../../constants";
+import Home from "../index";
+import "@testing-library/jest-dom";
+import { render, screen } from "@testing-library/react";
+import {MY_NAME, JOB_TITLE} from "../../constants";
 
-xdescribe("Home page - Unit Test", () => {
+describe('Homepage Unit Tests:', () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = render(<Home />)
-  })
-  xit("should render the home page", () => {
-   // expect the [data-test-id="my-name"] to match the value from constants/index.js
-    expect(wrapper.find('[data-test-id="my-name"]').text()).toBe(MY_NAME)
-  })
+    wrapper = render(<Home />);
+  });
+  it('should output the correct text for the h1 my-name', () => {
+    expect(screen.getByTestId('my-name')).toHaveTextContent(MY_NAME);
+  });
+  it('should output the correct text for the p job-title', () => {
+    expect(screen.getByTestId('job-title')).toHaveTextContent(JOB_TITLE);
+  });
 })
