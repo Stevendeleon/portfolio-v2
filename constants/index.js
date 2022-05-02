@@ -23,6 +23,8 @@ export const RECENT_TECHNOLOGIES = {
   dataScience: "Data Science",
 }
 
+export const VIEW_PROJECTS = "View some of my work";
+
 // Contact page
 
 export const CONTACT_SLOGAN = "Let's get in touch";
