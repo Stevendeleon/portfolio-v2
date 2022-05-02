@@ -5,7 +5,7 @@ export default function navBarLinks() {
   const navBarLinkValues = [
     { id: 0, name: "Home", href: "/" },
     { id: 1, name: "About", href: "/about" },
-    { id: 2, name: "Projects", href: "/projects" },
+    // { id: 2, name: "Projects", href: "/projects" },
     { id: 3, name: "Contact", href: "/contact" },
     { id: 4, name: "Resume", href: "/Resume.pdf" },
   ];
