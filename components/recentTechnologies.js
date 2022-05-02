@@ -1,16 +1,20 @@
 import React from "react";
-import { RECENT_TECHNOLOGIES } from "../constants";
+import { RECENT_TECHNOLOGIES as rt } from "../constants";
 
 const recentTechnologies = () => {
   const list = [
-    RECENT_TECHNOLOGIES.capacitor,
-    RECENT_TECHNOLOGIES.vue,
-    RECENT_TECHNOLOGIES.flutter,
-    RECENT_TECHNOLOGIES.jest,
-    RECENT_TECHNOLOGIES.python,
-    RECENT_TECHNOLOGIES.redis,
-    RECENT_TECHNOLOGIES.openShift,
-    RECENT_TECHNOLOGIES.dataScience
+    rt.vue,
+    rt.react,
+    rt.vite,
+    rt.jest,
+    rt.capacitor,
+    rt.crypto,
+    rt.prisma,
+    rt.redis,
+    rt.docker,
+    rt.python,
+    rt.machineLearning,
+    rt.dataScience,
   ];
 
   const renderList = list.map((li, index) => {
