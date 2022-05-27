@@ -24,6 +24,7 @@ export const RECENT_TECHNOLOGIES = {
   redis: "Redis",
   docker: "Docker",
   openShift: "OpenShift",
+  jenkins: "Jenkins",
   machineLearning: "Machine Learning",
   dataScience: "Data Science",
   go: "Go",
