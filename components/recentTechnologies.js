@@ -3,18 +3,16 @@ import { RECENT_TECHNOLOGIES as rt } from "../constants";
 
 const recentTechnologies = () => {
   const list = [
+    rt.go,
+    rt.docker,
+    rt.python,
+    rt.redis,
     rt.vue,
     rt.react,
     rt.vite,
     rt.jest,
     rt.capacitor,
-    rt.crypto,
     rt.prisma,
-    rt.redis,
-    rt.docker,
-    rt.python,
-    rt.machineLearning,
-    rt.dataScience,
   ];
 
   const renderList = list.map((li, index) => {

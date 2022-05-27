@@ -6,8 +6,7 @@ export const JOB_TITLE = "Software Developer | New York";
 export const ABOUT_ME = "About me";
 export const FULL_TIME_JOB_COMPANY_NAME = "Blue Cross NC";
 export const PART_TIME_JOB_COMPANY_NAME = "Glitnir Ticketing";
-export const ABOUT_ME_DESCRIPTION = `I aim to combine my skills of programming and design to build quality
-          scalable products that are ADA compliant, user friendly and appealing.`
+export const ABOUT_ME_DESCRIPTION = `When building Web and Mobile apps, I aim to combine programming and design skills to build quality scalable products that are ADA compliant, user friendly and appealing. I am very interested in the Cloud/DevOps space and this is something I am learning slowly on the side amongst other things.`;
 export const RECENT_TECH_USED_TITLE = "Technologies I have recently used";
 export const RECENT_TECHNOLOGIES = {
   capacitor: "Capacitor.js",
@@ -27,6 +26,7 @@ export const RECENT_TECHNOLOGIES = {
   openShift: "OpenShift",
   machineLearning: "Machine Learning",
   dataScience: "Data Science",
+  go: "Go",
 }
 
 export const VIEW_PROJECTS = "View some of my work";
