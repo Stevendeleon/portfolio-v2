@@ -7,12 +7,12 @@ const recentTechnologies = () => {
     rt.docker,
     rt.python,
     rt.redis,
-    rt.vue,
-    rt.jenkins,
-    rt.react,
-    rt.jest,
-    rt.capacitor,
+    rt.typescript,
+    rt.terraform,
+    rt.vitest,
     rt.prisma,
+    rt.gcp,
+    rt.aws
   ];
 
   const renderList = list.map((li, index) => {

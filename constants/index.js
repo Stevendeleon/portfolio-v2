@@ -4,15 +4,18 @@ export const JOB_TITLE = "Software Developer | New York";
 
 // About page
 export const ABOUT_ME = "About me";
-export const FULL_TIME_JOB_COMPANY_NAME = "Blue Cross NC";
+export const FULL_TIME_JOB_COMPANY_NAME = "BJSS";
 export const PART_TIME_JOB_COMPANY_NAME = "Glitnir Ticketing";
 export const ABOUT_ME_DESCRIPTION = `When building Web and Mobile apps, I aim to combine programming and design skills to build quality scalable products that are ADA compliant, user friendly and appealing. I am very interested in the Cloud/DevOps space and this is something I am learning slowly on the side amongst other things.`;
 export const RECENT_TECH_USED_TITLE = "Technologies I have recently used";
 export const RECENT_TECHNOLOGIES = {
   capacitor: "Capacitor.js",
+  terraform: "Terraform",
+  aws: "AWS",
   vue: "Vue.js",
   react: "React.js",
   prisma: "Prisma",
+  gcp: "Google Cloud Platform",
   typescript: "TypeScript",
   vitest: 'Vitest',
   vite: 'Vite',
