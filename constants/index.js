@@ -6,13 +6,15 @@ export const JOB_TITLE = "Software Developer | New York";
 export const ABOUT_ME = "About me";
 export const FULL_TIME_JOB_COMPANY_NAME = "BJSS";
 export const PART_TIME_JOB_COMPANY_NAME = "Glitnir Ticketing";
-export const ABOUT_ME_DESCRIPTION = `When building Web and Mobile apps, I aim to combine programming and design skills to build quality scalable products that are ADA compliant, user friendly and appealing. I am very interested in the Cloud/DevOps space and this is something I am learning slowly on the side amongst other things.`;
+export const ABOUT_ME_DESCRIPTION = `As a dedicated software engineer, I am currently employed full-time with BJSS while also working part-time for Glitnir Ticketing. 
+My focus is on creating high-quality web and mobile applications that seamlessly integrate programming and design expertise. With a commitment to building scalable, ADA-compliant, user-friendly, and visually appealing products, I strive for excellence in every project.
+In addition to my primary work, I have a keen interest in the Cloud/DevOps domain and am steadily expanding my knowledge in this area. This pursuit reflects my unwavering enthusiasm for exploring new technologies and advancing my skillset to stay ahead in the ever-evolving world of software development.`;
 export const RECENT_TECH_USED_TITLE = "Technologies I have recently used";
 export const RECENT_TECHNOLOGIES = {
   capacitor: "Capacitor.js",
   terraform: "Terraform",
   aws: "AWS",
-  vue: "Vue.js",
+  vue: "Vue.js 2 & 3",
   react: "React.js",
   prisma: "Prisma",
   gcp: "Google Cloud Platform",
@@ -31,6 +33,7 @@ export const RECENT_TECHNOLOGIES = {
   machineLearning: "Machine Learning",
   dataScience: "Data Science",
   go: "Go",
+  cSharp: "C#",
 }
 
 export const VIEW_PROJECTS = "View some of my work";
