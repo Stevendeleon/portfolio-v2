@@ -4,12 +4,14 @@ import { RECENT_TECHNOLOGIES as rt } from "../constants";
 const recentTechnologies = () => {
   const list = [
     rt.go,
-    rt.python,
     rt.cSharp,
     rt.typescript,
-    rt.aws,
-    rt.react,
-    rt.vue,
+    rt.awsLambda,
+    rt.postgres,
+    rt.docker,
+    rt.cli,
+    rt.react
+
   ];
 
   const renderList = list.map((li, index) => {

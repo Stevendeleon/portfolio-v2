@@ -17,7 +17,7 @@ export default function layout({ children }){
       <main className="flex flex-col justify-center px-8 mb-20">
         {children}
       </main>
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 };
