@@ -1,6 +1,6 @@
 // Home page
 export const MY_NAME = 'Steven DeLeon';
-export const JOB_TITLE = "Sr. Software Engineer | New York";
+export const JOB_TITLE = "Software Engineer | New York";
 
 // About page
 export const ABOUT_ME = "About me";
